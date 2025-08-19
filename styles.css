@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+body{
+    background: linear-gradient(to bottom, #74ebd5, #ACB6E5);
+}
+
+#container{
+    padding: 10px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    height: 18vh;
+    width: 100%;
+    color: #2c3e50;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+#searchBar{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    color: #333;
+    justify-content: center;
+    align-items: center;    
+    gap: 80px;
+}
+
+label{
+    font-size: 28px;
+    font-weight: 550;
+}
+input{
+    height: 40px;
+    width:30vw;
+    color: #333;
+    background-color: #f0f4f8;
+    border: 1px solid #90caf9;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+input::placeholder{
+    color: #888;
+}
+
+button{
+    padding:6px 10px;
+    font-size: 20px;
+    size: 30px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #2196f3;
+    border: none;
+}
+
+button:hover{
+    background-color: #1976d2;
+}
+
+section{
+    height: 70vh;
+    width: 100%;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city{
+    flex-basis: 25%;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details{
+    flex-basis: 75%;
+    width: 100%;
+    padding: 0px 20px;
+    padding-bottom: 50px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
+#desc{
+    font-size: 22px;
+    font-style: italic;
+    color:#555;
+}
+
+#temp{
+    font-size: 25px;
+    font-weight: 550;
+    color: #073153;
+}

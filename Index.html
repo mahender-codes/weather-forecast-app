@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-ForeCast</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>WEATHER FORECAST APP</h1>
+        </header>
+        <div id="searchBar">
+            <search>
+                <label for="cityInput">City:</label>
+            <input type="text" placeholder="Enter city, country code (e.g., Mumbai,IN)" id="cityInput">
+            </search>
+            <button >Search</button>
+        </div>
+        <section>   
+            <div id="city">
+                <h4>City Name,</h4>
+                <h4> Country Name</h4>
+            </div>
+            <div id="details">
+                <!-- <img id="weather-icon" src="" alt="Weather Icon"> -->
+                <img src="./assets/weather-icon-lg.png" alt="">
+                <p id="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, animi?  </p>
+                <p id="temp">Temparature: <span id="value">20"</span>C</p>
+            </div>
+        </section>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
